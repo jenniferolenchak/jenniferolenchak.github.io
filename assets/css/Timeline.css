@@ -37,7 +37,7 @@ section#section-timeline h3.section-subheading {
   position: absolute;
   content: "";
   width: 2px;
-  background-color: #f1f1f1;
+  background-color: #ada07a;
   left: 40px;
   margin-left: -1.5px;
 }
@@ -86,10 +86,10 @@ section#section-timeline h3.section-subheading {
   height: 80px;
   position: absolute;
   z-index: 100;
-  background-color: #3fa7f2;
-  color: #fff;
+  background-color: #ada07a;
+  color: #000000;
   border-radius: 100%;
-  border: 7px solid #f1f1f1;
+  border: 7px solid #ada07a;
   text-align: center;
 }
 
