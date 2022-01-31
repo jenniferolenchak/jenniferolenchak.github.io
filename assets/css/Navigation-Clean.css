@@ -1,5 +1,5 @@
 .navigation-clean {
-  background: #fff;
+  background: #ffffff;
   padding-top: .75rem;
   padding-bottom: .75rem;
   color: #333;
@@ -34,7 +34,7 @@
 }
 
 .navigation-clean .navbar-toggler {
-  color: #888;
+  color: #ffffff;
 }
 
 .navigation-clean.navbar-light .navbar-nav .nav-link.active, .navigation-clean.navbar-light .navbar-nav .nav-link.active:focus, .navigation-clean.navbar-light .navbar-nav .nav-link.active:hover {
