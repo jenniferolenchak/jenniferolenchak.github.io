@@ -246,7 +246,7 @@
         </div>
     </section>
     <section class="shadow contact-clean" style="background: #ada07a;">
-        <form class="bg-light border rounded border-secondary shadow-lg" id="contact-form" method="post" style="background: var(--bs-white);" action="https://docs.google.com/forms/d/e/1FAIpQLScc7nzTK2lVyf0Z1L4Dh-_e4_IG2YuzDrnzjP-IhqG13Pe5JA/formResponse?" name="contact-form" target="hidden_iframe" onsubmit="submitted=true;">
+        <form class="bg-light border rounded border-secondary shadow-lg" id="contact-form" style="background: var(--bs-white);" name="contact-form" onsubmit="submitted=true;">
             <h2 class="text-center" name="contactForm" style="font-family: Adamina, serif;color: #54472d;">Contact</h2>
             <div class="form-group mb-3"><input class="form-control" type="text" name="entry.1614420581" placeholder="Name"></div>
             <div class="form-group mb-3"><input class="form-control" type="text" name="entry.2104958173" placeholder="Phone" inputmode="tel"></div>
@@ -255,19 +255,12 @@
             <div class="form-group mb-3"><textarea class="form-control" name="entry.1422050710" placeholder="Message" rows="14"></textarea></div>
             <div class="form-group mb-3"><button class="btn btn-primary" type="submit">send </button></div>
         </form>
-    </section><script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-<script type="text/javascript">var submitted=false;</script>
-<script type="text/javascript">
-$('#contact-form').on('submit', function(e) {
-  $('#contact-form *').fadeOut(500);
-  $('#contact-form').prepend('Your message has been sent.');
-  });
-</script><iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+    </section>
     <footer class="footer-basic" style="background: var(--bs-light);height: 86.5px;padding-top: 21px;">
-        <p style="text-align: center;">This website was designed with Bootstrap Studio 5 and is being hosted on GitHub Pages. View the repository&nbsp;<a href="https://github.com/jenniferolenchak/jenniferolenchak.github.io">here.</a></p>
         <p class="copyright" style="color: var(--bs-body-color);">Jennifer Olenchak © 2022</p>
     </footer>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/smart-forms.min.js"></script>
 </body>
 
 </html>
